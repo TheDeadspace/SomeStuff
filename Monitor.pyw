@@ -10,8 +10,8 @@ from email.mime.base import MIMEBase
 from email import encoders
 
 #provides email/Password
-#email_user = 'coregms74@gmail.com'
-#email_password = 'C0reGames74'
+#email_user = ''
+#email_password = ''
 
 #sets up email message
 msg = MIMEMultipart()
