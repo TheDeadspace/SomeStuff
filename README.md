@@ -1,6 +1,6 @@
 # SomeStuff
 
-Script payloads for "under the sheets" info gathering...
+Script payloads for "under the sheets" info gathering...PLUS Other shenanigans  
 
 
 (Keylogger and screenshot functionality)
