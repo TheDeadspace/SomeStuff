@@ -26,7 +26,7 @@ def Send(email_Cred):
 
 	#screenshot current screen
 	filename='screenShit.png'
-	pyautogui.screenshot('/Users/'+User+'/Documents/Log/'+filename)
+	pyautogui.screenshot('/Users/'+User+'/Log/dist/'+filename)
 
 
 
